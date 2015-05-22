@@ -50,34 +50,28 @@ a{
 }
 main{
 	clear: both;
+	text-align: center;
+}
+main>div{
+	position: absolute;
+	top: 30%;
+	left: 30%;
 }
 .logo{
 	width: 269px;
 	height: 95px;
-	display: block;
 }
-main {
-	margin:0 auto;
-	width: 50%;
+input[type="search"]{
+	width: 520px;
+	height: 20px;
+	padding: 12px;
 }
-
-main div img{
-	position: absolute;
-	top: 27%;
-	left: 40%;
-	width: 50%;
-
-}
-
-
-.search-form input[type="search"]{
-	width: 600px;
-}
-.search-form button{
-	display: inline-block;
+.buttons{
 	padding: 20px;
 }
-
+.buttons button{
+	margin-right: 20px;
+}
 footer{
 	background: #f2f2f2;
 }
