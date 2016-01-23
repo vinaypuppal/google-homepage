@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Google</title>
+    <link href="google_favicon.ico" rel="shortcut icon">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
@@ -25,10 +26,23 @@
     <div class="main">
         <div class="logo"></div>
         <form action="https://www.google.co.in/webhp?">
-                <input type="search" name="q">
+                <div class="input-wrapper">
+                    <input type="search" name="q">
+                    <span id="voice-recorder"></span>
+                </div>
             <div class="btns">
-                <button>Search</button>
+                <button>Google Search</button>
                 <button>I'm Felling Lucky</button>
+            </div>
+            <div class="lang">
+                <ul>
+                    <li>Google.co.in offered in:</li>
+                    <li><a href="#">Telugu</a></li>
+                    <li><a href="#">Hindi</a></li>
+                    <li><a href="#">Tamil</a></li>
+                    <li><a href="#">Bengali</a></li>
+                    <li><a href="#">............</a></li>
+                </ul>
             </div>
         </form>
     </div>
